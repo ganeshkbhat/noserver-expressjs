@@ -8,5 +8,5 @@ import { default as invoke, invoker, extend, extenders, getBasicNodeMethods } fr
 export default invoke;
 
 export {
-    invoker, extend, extenders, getBasicNodeMethods
+    invoker, extend, extenders, getBasicNodeMethods 
 }
