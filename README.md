@@ -50,7 +50,7 @@ console.log(app.getHandlerWithMiddlewares());
 
 ### Allowed methods to fetch
 
-Allowed methods to fetch from `expressInstance.getHandler`, `expressInstance.getHandlers`, or `expressInstance.getHandlerWithMiddlewares` or returned when method `all` is used. 
+Allowed methods to fetch from `expressInstance.getHandler`, `expressInstance.getHandlers`, or `expressInstance.getHandlerWithMiddlewares` or all methods returned when method `all` is used. 
 
 ```
 [
