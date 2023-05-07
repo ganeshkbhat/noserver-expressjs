@@ -15,9 +15,12 @@ var extend = require("./src/mixins");
 module.exports.extenders = {
     getHandler: extend.getHandler,
     getHandlers: extend.getHandlers,
-    getHandlerWithMiddlewares: extend.getHandlerWithMiddlewares
+    getHandlerWithMiddlewares: extend.getHandlerWithMiddlewares,
+    extendExpress: extend.extendExpress
 }
 
+module.exports.extendExpress = extend.extendExpress;
+module.exports.invoker = extend.invoker;
 module.exports.extend = extend.extendExpress;
-module.exports.default = extend.extendExpress;
+module.exports.default = extend.invoker;
 

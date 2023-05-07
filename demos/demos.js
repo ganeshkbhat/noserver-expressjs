@@ -1,25 +1,6 @@
 
 var expressExtenders = require("../index");
-
-var express = require("express");
-let app = express();
-
-app.use(function (req, res, next) {
-    next()
-})
-
-app.get("/", function (req, res) {
-    res.status().send({ "test": "tester" })
-})
-
-app.all("/test", function (req, res) {
-    res.status().send({ "test": "tester" })
-})
-
-app.get("/tester", function (req, res, next) { next() }, function (req, res) {
-    res.status().send({ "test": "tester" })
-})
-
+var app = require("./expressapp");
 app = expressExtenders.extend(app);
 
 // console.log('app.getHandler("/", "all")', app.getHandler("/", "all"));
@@ -46,5 +27,5 @@ app = expressExtenders.extend(app);
 // console.log('app.getHandlerWithMiddlewares("/tester", "get")', app.getHandlerWithMiddlewares("/tester", "get"));
 
 
-console.log('app.getHandlerWithMiddlewares("/test", "all")', app.getHandlerWithMiddlewares("/test", "all"));
+// console.log('app.getHandlerWithMiddlewares("/test", "all")', app.getHandlerWithMiddlewares("/test", "all"));
 

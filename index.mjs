@@ -3,10 +3,10 @@
 
 'use strict';
 
-import { default as extend, extenders } from "./index.js";
+import { default as invoke, invoker, extend, extenders } from "./index.js";
 
-export default extend;
+export default invoke;
 
-export { 
-    extend, extenders
+export {
+    invoker, extend, extenders
 }
