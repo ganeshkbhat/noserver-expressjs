@@ -64,6 +64,19 @@ invoker("/", "get", app).end((err, res) => {
 ```
 
 
+### .getBasicNodeMethods
+
+
+Usage:
+
+```
+
+var getBasicNodeMethods = require("../index").getBasicNodeMethods;
+
+console.log(getBasicNodeMethods);
+
+```
+
 
 ### Allowed methods to fetch
 
