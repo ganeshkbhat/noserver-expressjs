@@ -1,0 +1,38 @@
+{
+  "name": "noserver-expressjs",
+  "version": "1.0.0",
+  "description": "npm module noserver-express allows you to access the express route fetch, access, and invoke applicable Layer Objects of Middlewares and Handler/s with having to listen to a Server.",
+  "main": "index.js",
+  "exports": {
+    "require": "./index.js",
+    "import": "./index.mjs"
+  },
+  "directories": {
+    "test": "test",
+    "lib": "./src/**"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fetch route handler",
+    "fetch route handlers",
+    "fetch route handler with middlewares",
+    "express",
+    "expressjs",
+    "no server",
+    "no server route invoker",
+    "no express server",
+    "no express server route invoker"
+  ],
+  "author": "Ganesh B <ganeshsurfs@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "sinon": "^15.0.4"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
