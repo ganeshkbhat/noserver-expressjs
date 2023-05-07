@@ -1,7 +1,7 @@
 {
-  "name": "noserve",
+  "name": "express-noserve",
   "version": "1.0.0",
-  "description": "npm module noserver-express allows you to access the express route fetch, access, and invoke applicable Layer Objects of Middlewares and Handler/s with having to listen to a Server.",
+  "description": "npm module express-noserve allows you to access the express route fetch, access, and invoke applicable Layer Objects of Middlewares and Handler/s without having to listen to a Server.",
   "main": "index.js",
   "exports": {
     "require": "./index.js",
