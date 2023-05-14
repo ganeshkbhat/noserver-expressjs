@@ -29,11 +29,12 @@
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.3.7",
+    "express": "^4.18.2",
     "mocha": "^10.2.0",
-    "sinon": "^15.0.4",
-    "express": "^4.18.2"
+    "sinon": "^15.0.4"
   },
   "dependencies": {
+    "@supercharge/pipeline": "^1.4.0",
     "supertest": "^6.3.3"
   }
 }
